@@ -7,7 +7,6 @@ import fs, {
   appendFile,
   unlink,
 } from "fs";
-// import { get } from "express";
 
 const fileType = /^(\w+(\.(txt|log|json|yaml|xml|js))){1}$/i;
 const getExtention = (filename) => {
