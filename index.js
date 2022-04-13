@@ -1,5 +1,5 @@
 import express from "express";
-import routes from "./src/routers/appRouter";
+import routes from "./src/routers/appRouter.js";
 import bodyParser from "body-parser";
 
 const app = express();

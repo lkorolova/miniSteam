@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node -e js"
+    "start": "node ./index.js --exec babel-node"
   },
   "author": "Lolita Korolova",
   "email": "lolita_korolova@epam.com",

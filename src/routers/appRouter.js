@@ -1,4 +1,4 @@
-import { createFile, getFiles, getFile, modifyFile, deleteFile } from "../controllers/appController";
+import { createFile, getFiles, getFile, modifyFile, deleteFile } from "../controllers/appController.js";
 
 const routes = (app) => {
 
