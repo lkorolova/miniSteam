@@ -129,7 +129,7 @@ export const modifyFile = (req, res) => {
     } else {
       if (content) {
         if (typeof content === "string") {
-          appendFile(path, content, (err) => {
+          writeFile(path, content, (err) => {
             if (err) {
               res.status(500).json({ message: "Server error" });
             }
